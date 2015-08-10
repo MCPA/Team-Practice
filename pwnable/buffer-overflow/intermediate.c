@@ -1,3 +1,7 @@
+/* Compile options
+   gcc intermediate.c -o intermediate -fno-stack-protector -z execstack
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
