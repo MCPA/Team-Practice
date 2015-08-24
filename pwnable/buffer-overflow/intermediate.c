@@ -1,5 +1,12 @@
 /* Compile options
    gcc intermediate.c -o intermediate -fno-stack-protector -z execstack
+   sudo sysctl kernel.randomize_va_space=0
+   
+   Depending on level of difficulty you want:
+   Easy - Compile with -fno-stack-protector -z execstack, turn off ALSR
+   Medium - Compile with -fno-stack-protector -z execstack, Turn on ALSR
+   Medium/Hard - Compile with -z execstack, Turn on ALSR
+   Hard - Compile w/o options above and turn on ALSR
 */
 
 #include <stdio.h>
