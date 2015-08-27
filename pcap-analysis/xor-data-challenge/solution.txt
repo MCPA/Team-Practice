@@ -2,15 +2,27 @@
 Here's an example: https://www.fireeye.com/blog/threat-research/2015/02/anatomy_of_a_brutef.html
 
 1a. Big takeways - it's an actual bot, and it uses XOR encryption.
-1b. Looking at the pcap holistically, it looks for sketchy domains, tries to pull down a config (fails), tries 2 C&C servers before actually establishing a connection with the 3rd. It tries some very shady networking, gets sent a command, then starts sending garbage on port 80.  Read the writeups for more on why it's doing this (hint: the answer is in the nomenclature).
+1b. Looking at the pcap holistically, it looks for sketchy domains, tries to pull down a config (fails), tries 2 C&C servers
+before actually establishing a connection with the 3rd. It tries some very shady networking, gets sent a command, then starts
+sending garbage on port 80.  Read the writeups for more on why it's doing this (hint: the answer is in the nomenclature).
 
-2. Here's the crappy part from all the writeups which mostly call out the XOR key.  First, the key is larger than usual.  Second, the key listed on the blogs looks like hex (which would make it an 8 byte key - BB2FA36AAA9541F0), but is actually the ASCII representation of those bytes (so it's 16 bytes - 42423246413336414141393534314630).  You'll see this key repeating the packet capture.
-3. The key packets are actually sent in 3 separate streams (tcp.stream eq 2/3/4), all with data lengths of 272 bytes. Packets 24, 33, and 41 are the ones you need.
-4. Click on packet 41 in wireshark, select just the data section in the lower display, copy that off somewhere.  I did clicked on just the data section, right clicked, then selected Copy -> Bytes -> Hex Stream
+2. Here's the crappy part from all the writeups which mostly call out the XOR key.  First, the key is larger than usual. 
+Second, the key listed on the blogs looks like hex (which would make it an 8 byte key - BB2FA36AAA9541F0), but is actually the
+ASCII representation of those bytes (so it's 16 bytes - 42423246413336414141393534314630).  You'll see this key repeating the
+packet capture.
+3. The key packets are actually sent in 3 separate streams (tcp.stream eq 2/3/4), all with data lengths of 272 bytes. Packets
+24, 33, and 41 are the ones you need.
+4. Click on packet 41 in wireshark, select just the data section in the lower display, copy that off somewhere.  I did clicked
+on just the data section, right clicked, then selected Copy -> Bytes -> Hex Stream
 
-ab4132464b333641bebec6ca071f761e726f01746c54532f24335056343146304242324641333641414139353431463042423246413336414141393534314630424232464133364141413935345870087442324641333641414139353431463042423246413336414141393534314630424232464133364141413935343146304242324641333641414139353431771a717106704133364141413935343146304242324641333641414139353431463042423246413336414141393534314630424232464133364141413935343146472c38583e2e5150322229405250563e553a2d5c293340422430295c415046343011167312087036414141393534314630706c0268713336414141393534314630
+ab4132464b333641bebec6ca071f761e726f01746c54532f243350563431463042423246413336414141393534314630424232464133364141413935343146
+304242324641333641414139353458700874423246413336414141393534314630424232464133364141413935343146304242324641333641414139353431
+46304242324641333641414139353431771a717106704133364141413935343146304242324641333641414139353431463042423246413336414141393534
+314630424232464133364141413935343146472c38583e2e5150322229405250563e553a2d5c293340422430295c4150463430111673120870364141413935
+34314630706c0268713336414141393534314630
 
-5. So now we have the key, and the data.  If you have a windows tool that does multiple byte XOR decoding, bless you, this will be easy.  I defined an xor function in python for an arbitrary key length, and to play with it in bytearray format.
+5. So now we have the key, and the data.  If you have a windows tool that does multiple byte XOR decoding, bless you, this 
+will be easy.  I defined an xor function in python for an arbitrary key length, and to play with it in bytearray format.
 
 def xor(d, k):
     l = len(k)
@@ -18,11 +30,16 @@ def xor(d, k):
         (d[i] ^ k[i % l]) for i in range(0,len(d))
     ))
 
-d = bytearray('ab4132464b333641bebec6ca071f761e726f01746c54532f24335056343146304242324641333641414139353431463042423246413336414141393534314630424232464133364141413935345870087442324641333641414139353431463042423246413336414141393534314630424232464133364141413935343146304242324641333641414139353431771a717106704133364141413935343146304242324641333641414139353431463042423246413336414141393534314630424232464133364141413935343146472c38583e2e5150322229405250563e553a2d5c293340422430295c415046343011167312087036414141393534314630706c0268713336414141393534314630'.decode('hex'))
+d = bytearray('ab4132464b333641bebec6ca071f761e726f01746c54532f243350563431463042423246413336414141393534314630424232464133364
+141413935343146304242324641333641414139353458700874423246413336414141393534314630424232464133364141413935343146304242324641333
+64141413935343146304242324641333641414139353431771a717106704133364141413935343146304242324641333641414139353431463042423246413
+336414141393534314630424232464133364141413935343146472c38583e2e5150322229405250563e553a2d5c293340422430295c4150463430111673120
+87036414141393534314630706c0268713336414141393534314630'.decode('hex'))
 k = bytearray('42423246413336414141393534314630'.decode('hex'))
 
 >>> print xor(d,k)
 
 [garbage]3.0.0-32-generici6861*3346wnzjxobfschygdgxexonorsteqhetdwrSTATIC2.0.0
 
-6. For those that haven't run a 'uname -r' lately, you can see the kernel version above (3.0.0-32-generic), and read more of the writeup to see why it sends that.
+6. For those that haven't run a 'uname -r' lately, you can see the kernel version above (3.0.0-32-generic), and read more of 
+the writeup to see why it sends that.
