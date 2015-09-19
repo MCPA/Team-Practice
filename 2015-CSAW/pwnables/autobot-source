@@ -1,0 +1,13 @@
+int main() {
+    var_4 = socket(0x2, 0x1, 0x0);
+    memset(var_D0, 0x0, 0x10);
+    htons(0x0) & 0xffff;
+    htons(0xc815);
+    bind(var_4, 0x2, 0x10);
+    listen(var_4, 0xa);
+    var_8 = accept(var_4, 0x0, 0x0);
+    read(var_8, var_C0, 178);
+    rdx = strlen(var_C0) + 0x1;
+    rax = write(var_8, var_C0, rdx);
+    return rax;
+}
