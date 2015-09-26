@@ -111,7 +111,7 @@ def main():
             print("{0}::Stage 3 Cipher: {1}{2}".format(color.RED, color.END,cipher))
             print("{0}::Stage 3 Plaintext: {1}{2}".format(color.RED,color.END, plaintext))
             print("{0}::Stage 3 Answer: {1}{2}".format(color.GREEN,color.END,answer))
-            sock.sendall(answer)
+            sock.sendall(answer + "\n")
             print read(sock)
         else:
             print("{0}Plaintext was not properly decrypted.{1}".format(color.RED,color.END))
