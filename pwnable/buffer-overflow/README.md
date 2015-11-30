@@ -21,6 +21,5 @@ Last - there are compiling options for the intermediate challenge co-located wit
 
 ### Links
 
-The recorded practice session can be found [here](http://www.youtube.com/watch?v=SpVKnG5hwng)
-
+The recorded practice session can be found [here](http://www.youtube.com/watch?v=SpVKnG5hwng)  
 Practice material can be found [here](https://github.com/MCPA/Team-Challenges/tree/master/pwnable/buffer-overflow)
