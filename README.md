@@ -6,7 +6,10 @@ available.
 
 
 ### Recordings of Live Practice Sessions
-
+* https://youtu.be/SpVKnG5hwng
+* https://youtu.be/QwRV7KiM2lQ
+* https://youtu.be/-TALRLWwsog
+* https://youtu.be/PkLkOAqmNkI
 
 ----
 Need help learning how to use git? Check out http://gitref.org/basic/
