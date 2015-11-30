@@ -8,13 +8,13 @@ This team practice was held on December 12th (2030 via Google Hangouts - I'll em
 ### Tasks to complete before watching the practice:
 Ensure you have done the following PRIOR to practice.  We will not wait for you to begin.
 ```
-Have linux running in a VM on a windows box, I'm running the most recent Kali VM image, Kali 1.1.0 VM64
+1. Have linux running in a VM on a windows box, I'm running the most recent Kali VM image, Kali 1.1.0 VM64
 update and upgrade your image.
-Ensure you are able to run 32bit ELFs if you are on a 64bit linux
-newer linux: sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0
-older linux: sudo apt-get install ia32-libs
-download and install ida-pro 5.0 (this is what I'll be using) on your windows box
-download and install gdb-peda on your linux image (you are succesful if when you run gdb the prompt now says gdb-peda)
+2. Ensure you are able to run 32bit ELFs if you are on a 64bit linux
+..* newer linux: sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0
+..* older linux: sudo apt-get install ia32-libs
+3. download and install ida-pro 5.0 (this is what I'll be using) on your windows box
+4. download and install gdb-peda on your linux image (you are succesful if when you run gdb the prompt now says gdb-peda)
 ```
 
 You are mission complete if you can open your ELF file (re_100_final) in IDA-PRO and if you can attach it to GDB and when you type "run" it asks you to enter in the "secret flag"
