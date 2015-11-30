@@ -1,3 +1,7 @@
+Introduction to Packet Capture Analysis
+======
+
+### Description
 This practice session covers a challenge using pcap analysis called "pa050".
 
 ### Pre-reading Material
@@ -18,3 +22,7 @@ Last, just like last time after I'm done with the walk-thru time dependent we ca
 for this session to last between 1-2 hours depending on interest. I'm still working on a good way to work through how we 
 all participate online together and yet record the session at the same time. For now - it will work the same way as last 
 time - an onair google hangout @ https://plus.google.com/events/c6b1tbsmupkodiuimhlscdkt98s?authkey=CKzx46nD_obNCA
+
+### Links  
+The recorded practice session can be found [here](http://www.youtube.com/watch?v=QwRV7KiM2lQ)
+Practice material can be found [here](https://github.com/MCPA/Team-Challenges/tree/master/pcap-analysis/xor-data-challenge)
