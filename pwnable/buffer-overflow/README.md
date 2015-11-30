@@ -15,9 +15,9 @@ Please at least read through the first reference - this way you will be better a
 
 ### Summary
 
-This session focused mainly on what a buffer overflow is, how to find one, and then leverage it against a binary. I recommend setting up your own system ahead of time so while I do the walk-thru you can follow along inside GDB and on your own VM. Of particular note you will need Linux VM with randomization turned ON. You can do that with the following command: ``` sudo sysctl kernel.randomize_va_space=2 ```. [Download the binary](https://github.com/thebarbershopper/ctf-writeups/blob/master/polictf-2015/johns-library/johns-library)
+This session focused mainly on what a buffer overflow is, how to find one, and then leverage it against a binary. I recommend setting up your own system ahead of time so while I do the walk-thru you can follow along inside GDB and on your own VM. Of particular note you will need Linux VM with randomization turned ON. You can do that with the following command: ``` sudo sysctl kernel.randomize_va_space=2 ```. [Download the binary](https://github.com/thebarbershopper/ctf-writeups/blob/master/polictf-2015/johns-library/johns-library). I've made a couple modifications to the programming material and was missing time to prepare for john's library. I'll cover the progress I made on it and then switch over to exploiting a different challenge to give the demo. Either way it should be helpful to watch and see the methodology.
 
 ### Links
 
 The recorded practice session can be found [here](http://www.youtube.com/watch?v=SpVKnG5hwng)
-Practice material can be found [here]()
+Practice material can be found [here](https://github.com/MCPA/Team-Challenges/tree/master/pwnable/buffer-overflow)
