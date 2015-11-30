@@ -1,11 +1,11 @@
 Introduction to IDA 5.0 and GDB Python Exploit Development Assistance (PEDA)
 ======
 
-## Description
+### Description
 
 This team practice was held on December 12th (2030 via Google Hangouts - I'll email and post the link about 10 minutes prior). Ben Smith is going to be leading this practice. It will focus on providing an introduction to using IDA v5.0, IDA Pro Freeware, and GDB-PEDA, an interactive GDB Python Exploit Environment. If you didn't sit in our last practice on 21 November 2015, you may want to go back and review the [video](https://youtu.be/PkLkOAqmNkI?t=17m50s). The practice will make more sense if you have a basic knowledge of the stack and assembly terminology. There are also a few tasks to complete before the practice, because this session will be very hands-on:
 
-## Tasks to complete before watching the practice:
+### Tasks to complete before watching the practice:
 Ensure you have done the following PRIOR to practice.  We will not wait for you to begin.
 ```
 Have linux running in a VM on a windows box, I'm running the most recent Kali VM image, Kali 1.1.0 VM64
