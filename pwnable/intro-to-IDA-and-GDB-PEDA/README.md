@@ -19,3 +19,4 @@ update and upgrade your image.
 You are mission complete if you can open your ELF file (re_100_final) in IDA-PRO and if you can attach it to GDB and when you type "run" it asks you to enter in the "secret flag"
 
 All the class material can be found [here](https://goo.gl/8lu5V7).
+The on-air Google Hangout can be found [place holder](http://placeholder)
