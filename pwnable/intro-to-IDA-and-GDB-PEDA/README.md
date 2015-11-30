@@ -7,6 +7,7 @@ This team practice was held on December 12th (2030 via Google Hangouts - I'll em
 
 ### Tasks to complete before watching the practice:
 Ensure you have done the following PRIOR to practice.  We will not wait for you to begin.
+
 1. Have linux running in a VM on a windows box, I'm running the most recent Kali VM image, Kali 1.1.0 VM64
 update and upgrade your image.
 2. Ensure you are able to run 32bit ELFs if you are on a 64bit linux
