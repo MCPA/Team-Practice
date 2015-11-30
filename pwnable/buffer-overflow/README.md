@@ -19,7 +19,6 @@ This session focused mainly on what a buffer overflow is, how to find one, and t
 
 Last - there are compiling options for the intermediate challenge co-located with this readme. The practice session is based on the easiest challenge compilation option.
 
-### Links
-
+### Links  
 The recorded practice session can be found [here](http://www.youtube.com/watch?v=SpVKnG5hwng)  
 Practice material can be found [here](https://github.com/MCPA/Team-Challenges/tree/master/pwnable/buffer-overflow)
