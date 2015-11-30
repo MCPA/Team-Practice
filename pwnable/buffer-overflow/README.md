@@ -5,7 +5,7 @@ Introduction to Buffer Overflows
 
 This practice session was covered during a HoT session on 31 July at 2030 PM EST. It covered a walk-thru on John's library from iCTF - mainly because I spent my time working with that and have my own solution after the event. It also demonstrated overflowing buffers with a pre-made binary included in this package.
 
- ### Pre-reading Material
+### Pre-reading Material
 There are three references for the walk-thru that will help you understand
 * https://github.com/thebarbershopper/ctf-writeups/tree/master/polictf-2015/johns-library
 * http://www.bannsecurity.com/index.php/home/10-ctf-writeups/11-polictf-2015-john-s-library
