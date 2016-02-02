@@ -6,7 +6,7 @@ Kendall is a 300 point pwnable challenge from the 2015 Boston Key Party. The cha
 
 
 Download the [binary](kendall.tar_.gz?raw=true)
-When running the binary, make sure you create the required files for the binary to function. First, in the same directory ```touch dhcp.log``` and ```touch password.txt```.
+When running the binary, make sure you create the required files for the binary to function. Next, in the same directory ```touch dhcp.log``` and ```touch password.txt```.
 
 # Solving the Challenge Steps
 
