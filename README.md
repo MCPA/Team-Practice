@@ -12,7 +12,9 @@ available.
 * Packet Analysis  
   * https://youtu.be/QwRV7KiM2lQ  
 * Cryptology  
-  * https://youtu.be/-TALRLWwsog  
+  * https://youtu.be/-TALRLWwsog 
+* Intro to IDA and GDB-PEDA
+  * https://youtu.be/1_mo1-Sy55Q
 
 ----
 Need help learning how to use git? Check out http://gitref.org/basic/
