@@ -1,0 +1,28 @@
+# Introduction
+
+Kendall is a 300 point pwnable challenge from the 2015 Boston Key Party. The challenge involves exploiting a router, taking advantage of the Superfish vulnerability[^1], and intercepting browsing information.
+
+# Setup
+
+
+Download the [binary](kendall.tar.gz)
+When running the binary, make sure you create the required files for the binary to function. First, in the same directory ```touch dhcp.log``` and ```touch password.txt```.
+
+# Solving the Challenge Steps
+
+A breakdown of the steps necessary to finish from [Michael Weissbacher](http://mweissbacher.com/blog/2015/03/01/boston-key-party-2015-kendall-challenge-superfish/):
+
+* Pwn the binary
+    * Bypass authentication
+    * Overwrite DNS entries with DNS controlled by team
+    * Trigger DHCP renew
+* Intercept Browsing
+    * Set up DNS server that responds with team’s IP
+    * Listen to the requests and make them succeed
+    * Interpret the HTTP request
+    * Set up SSL interception with Superfish CA
+
+### A detailed solution write-up is provided by [Balalaika Cr3w](https://ctfcrew.org/writeup/97).
+
+# Endnotes
+[^1]: In February 2015, Lenovo was caught selling computers with preinstalled "malware" called <strong>Superfish</strong>. Superfish broke the trust chain between the user's computer and the destination by signing all certificates with its own root certificate - thus pretending to be the destination website. Find out more about it [here](http://stephen-brennan.com/2015/02/20/superfish-explained/) from <em>Stephen Brennan</em>. The exploit process is described [here](http://blog.erratasec.com/2015/02/extracting-superfish-certificate.html#.VrAfvDYrJBw)
