@@ -11,8 +11,10 @@ This practice session is intended to be a live demonstration coupled with a foll
   * Install ltrace
   * Install strace
   * Install socat
+  * Install capstone & [ROPgadget](https://github.com/JonathanSalwan/ROPgadget)
 2. Download the vulnerable binary and create a flag to be read on your local VM.
 3. Install a disassembler, such as [IDA free 5.0](https://clickhere.com), [Hopper](https://clickhere.com), [Binary Ninja](https://binary.ninja), or use [radare2](https://clickhere.com) which is included with Kali Linux.
+4. Install a debugger of your choice or use [GDB-PEDA](https://github.com/longld/peda)
 
 ## Pre-Reading Material
 
@@ -31,16 +33,18 @@ This practice session is intended to be a live demonstration coupled with a foll
     * Return-2-Libc
     * Gadgets
     * ROP Chaining
-4. Minimum Requirements
+4. Watch ROP Work
 5. Walkthrough & Live Demo
 6. Questions
 7. References
 
 ## Summary
 
-What is Return-Oriented-Programming?   
-Why is it useful?   
-What do I hope someone will learn from attending this practice session?
+##### What is Return-Oriented-Programming and why is it useful?    
+Return-Oriented-Programming (ROP) is a type of exploitation techniques which bypasses many protection features afforded by both the OS and compilation techniques. ROP has three fairly common uses and techniques by which is gains it's name from: 1) ROP Chaining; 2) Return to Libc (Ret-2-libc); and 3) Trampolines. It does this by using executable pieces of code that are already present in the vulnerable program. Through this technique it is possible to not only redirect control of the program but execute arbitrary operations on the targeted host machine.
+
+##### What should you learn from this practice session?
+This practice sessions is geared towards teaching what is involved with building a ROP chain through not only providing a demonstration, but also lecture material for future referencing. It assumes that the attendee(s) at least have a basic understanding of assembly programming and stacks/stack frames. Following the practice session attendees should understand why ROP is possible and be able to build a ROP chain using instructions present in the program.
 
 ## Useful Links
 
