@@ -18,9 +18,10 @@ This practice session is intended to be a live demonstration coupled with a foll
 
 ## Pre-Reading Material
 
-* Read the primer on Smashing the Stack.
-* Read the primer on Return-Oriented-Programming.
-* Read about modern protections used to protect binaries from exploitation.
+* Browse the primer on [Smashing the Stack by AlephOne](References/AlephOne-SmashingtheStack.pdf)
+* Read the entire primer on Return-Oriented-Programming on [wikipedia](https://en.wikipedia.org/wiki/Return-oriented_programming).
+* Look over our intro to x86 [slides](https://github.com/MCPA/Team-Challenges/raw/master/pwnable/intro-to-x86/intro-to-x86.ppt.pdf) or [video](https://youtu.be/PkLkOAqmNkI?t=19m40s)
+* Look over slides 7-12 from a class made by Saumil Shah [[here](http://www.slideshare.net/saumilshah/dive-into-rop-a-quick-introduction-to-return-oriented-programming)]
 
 ## Agenda
 
@@ -28,6 +29,7 @@ This practice session is intended to be a live demonstration coupled with a foll
 2. Background Noise
     * x64 Registers and Calling Conventions
     * x64 Instructions & Intel Syntax
+    * Modern protections for preventing misuse
 3. What is ROP?
     * Trampolines
     * Return-2-Libc
@@ -50,7 +52,7 @@ This practice sessions is geared towards teaching what is involved with building
 
 The recorded practice session can be found [[here]()]  
 Practice material can be found [[here]()]  
-Pre-reading material can be found [[here]()]
+Pre-reading material can be found [[here](https://github.com/MCPA/Team-Challenges/tree/master/pwnable/return-oriented-programming/References)]
 
 -----
 
