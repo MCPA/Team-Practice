@@ -12,7 +12,7 @@ This practice session is intended to be a live demonstration coupled with a foll
   * Install strace
   * Install socat
   * Install capstone & [ROPgadget](https://github.com/JonathanSalwan/ROPgadget)
-2. Download the vulnerable binary and create a flag to be read on your local VM.
+2. Download the vulnerable [binary](Simple_Calc) and create a flag to be read on your local VM.
 3. Install a disassembler, such as [IDA free 5.0](https://clickhere.com), [Hopper](https://clickhere.com), [Binary Ninja](https://binary.ninja), or use [radare2](https://clickhere.com) which is included with Kali Linux.
 4. Install a debugger of your choice or use [GDB-PEDA](https://github.com/longld/peda)
 
