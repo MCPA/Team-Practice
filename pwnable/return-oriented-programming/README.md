@@ -50,8 +50,8 @@ This practice sessions is geared towards teaching what is involved with building
 
 ## Useful Links
 
-The recorded practice session can be found [[here]()]  
-Practice material can be found [[here]()]  
+The recorded practice session can be found [[here](https://youtu.be/3o4nO3WZn6o)]  
+Practice material can be found [[here](/)]  
 Pre-reading material can be found [[here](https://github.com/MCPA/Team-Challenges/tree/master/pwnable/return-oriented-programming/References)]
 
 -----
