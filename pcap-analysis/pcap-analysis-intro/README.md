@@ -22,12 +22,12 @@ We will probably not have enough time to cover everything.  The focus will be to
 
 # Download:
 ## Software
-Wireshark <https://www.wireshark.org/download.html>
-NetworkMiner <http://www.netresec.com/?page=NetworkMiner>
-Netwitness (signup required) <https://emcinformation.com/283102/REG/.ashx?reg_src=web>
-Caploader <http://www.netresec.com/?page=CapLoader>
+Wireshark <https://www.wireshark.org/download.html>  
+NetworkMiner <http://www.netresec.com/?page=NetworkMiner>  
+Netwitness (signup required) <https://emcinformation.com/283102/REG/.ashx?reg_src=web>  
+Caploader <http://www.netresec.com/?page=CapLoader>  
 
-https://github.com/MCPA/Team-Challenges/blob/master/pcap-analysis/xor-data-challenge/Wireshark%20TCP%20Stream.png
+<https://github.com/MCPA/Team-Challenges/blob/master/pcap-analysis/xor-data-challenge/Wireshark%20TCP%20Stream.png>  
 
 ## Challenge Files
 SANS Boston Puzzle 1
@@ -44,11 +44,11 @@ SANS tcpdump & ipv6 tcpdump
 
 # Reference Material to Review before the Practice Session
 
-TCP Handshake <http://packetlife.net/blog/2010/jun/7/understanding-tcp-sequence-acknowledgment-numbers/>
-Protocol Encapsulation <https://en.wikipedia.org/wiki/Encapsulation_(networking)>
-List of Port Numbers <http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml>
-Libpcap File Format <https://wiki.wireshark.org/Development/LibpcapFileFormat>
-USB Capture Setup <https://wiki.wireshark.org/CaptureSetup/USB
+TCP Handshake <http://packetlife.net/blog/2010/jun/7/understanding-tcp-sequence-acknowledgment-numbers/>  
+Protocol Encapsulation <https://en.wikipedia.org/wiki/Encapsulation_(networking)>  
+List of Port Numbers <http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml>  
+Libpcap File Format <https://wiki.wireshark.org/Development/LibpcapFileFormat>  
+USB Capture Setup <https://wiki.wireshark.org/CaptureSetup/USB>  
 
 # What is a Packet-Capture?
 
