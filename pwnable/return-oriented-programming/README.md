@@ -42,7 +42,7 @@ This practice session is intended to be a live demonstration coupled with a foll
 
 ## Summary
 
-##### What is Return-Oriented-Programming and why is it useful?    
+##### What is Return-Oriented-Programming and why is it useful?
 Return-Oriented-Programming (ROP) is a type of exploitation techniques which bypasses many protection features afforded by both the OS and compilation techniques. ROP has three fairly common uses and techniques by which is gains it's name from: 1) ROP Chaining; 2) Return to Libc (Ret-2-libc); and 3) Trampolines. It does this by using executable pieces of code that are already present in the vulnerable program. Through this technique it is possible to not only redirect control of the program but execute arbitrary operations on the targeted host machine.
 
 ##### What should you learn from this practice session?
@@ -50,7 +50,7 @@ This practice sessions is geared towards teaching what is involved with building
 
 ## Useful Links
 
-The recorded practice session can be found [[here](https://youtu.be/3o4nO3WZn6o)]  
+The recorded practice session can be found [[here](https://youtu.be/3o4nO3WZn6o)]
 Practice material can be found [[here](https://github.com/MCPA/Team-Challenges/tree/master/pwnable/return-oriented-programming)]
 Pre-reading material can be found [[here](https://github.com/MCPA/Team-Challenges/tree/master/pwnable/return-oriented-programming/References)]
 
