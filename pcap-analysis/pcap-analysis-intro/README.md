@@ -75,7 +75,7 @@ Extract/translate packet field information? (tshark, etc)
 File carving
 
 # Endnotes
-CTF Time Challenges <https://ctftime.org/ctfs>
-CTF Time Writeups <https://ctftime.org/writeups>
-MCPA Challenges <https://github.com/MCPA/Team-Challenges>
-JCC Challenge Writeups <https://github.com/JointCyberTrainingFoundation/Walkthroughs/blob/master/README.md>
+CTF Time Challenges <https://ctftime.org/ctfs>  
+CTF Time Writeups <https://ctftime.org/writeups>  
+MCPA Challenges <https://github.com/MCPA/Team-Challenges>  
+JCC Challenge Writeups <https://github.com/JointCyberTrainingFoundation/Walkthroughs/blob/master/README.md>  
