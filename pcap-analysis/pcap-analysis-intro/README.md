@@ -30,14 +30,14 @@ Caploader <http://www.netresec.com/?page=CapLoader>
 <https://github.com/MCPA/Team-Challenges/blob/master/pcap-analysis/xor-data-challenge/Wireshark%20TCP%20Stream.png>  
 
 ## Challenge Files
-SANS Boston Puzzle 1
-SANS Boston Puzzle 2
-Google CTF A Cute Stegosaurus
-Google CTF For2
-Google CTF In Recorded Conversation
-Hack the Arch Level 200
-Hack the Arch Level 300
-JCC na100 - Across the Wire
+- SANS Boston Puzzle 1
+- SANS Boston Puzzle 2
+- Google CTF A Cute Stegosaurus
+- Google CTF For2
+- Google CTF In Recorded Conversation
+- Hack the Arch Level 200
+- Hack the Arch Level 300
+-  JCC na100 - Across the Wire
 
 ## Cheat Sheets
 SANS tcpdump & ipv6 tcpdump
@@ -64,15 +64,15 @@ Analyzing packet captures is fundamental to understanding traffic flow on a netw
 
 After the session, participants should be able to:
 
-Understand the difference(s) between pcap, pcap-ng, etc.
-Understand the capabilities of packet capture analysis tools.
-How to open packet captures.
-Analyze packet captures at a high-level (flow?, conversations, endpoints, expert info, etc.).
-Analyze transport protocols
-Analyze application protocols
-Extract contents from packets
-Extract/translate packet field information? (tshark, etc)
-File carving
+- Understand the difference(s) between pcap, pcap-ng, etc.
+- Understand the capabilities of packet capture analysis tools.
+- How to open packet captures.
+- Analyze packet captures at a high-level (flow?, conversations, endpoints, expert info, etc.).
+- Analyze transport protocols
+- Analyze application protocols
+- Extract contents from packets
+- Extract/translate packet field information? (tshark, etc)
+- File carving
 
 # Endnotes
 CTF Time Challenges <https://ctftime.org/ctfs>  
