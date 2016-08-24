@@ -42,6 +42,7 @@ We will probably not have enough time to cover everything.  The focus will be to
 ### Cheat Sheets
 - [SANS tcpdump](Resources/Cheat_Sheet-SANS-tcpdump.pdf)
 - [IPv6 tcpdump](Resources/Cheat_Sheet-SANS-ipv6_tcpdump.pdf)
+- [Common TCP/UDP Ports] (Resources/TCP_UDP_common_ports.pdf)
 
 ## Reference Material to Review before the Practice Session
 
