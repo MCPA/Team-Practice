@@ -39,9 +39,9 @@ This practice session is intended to introduce reverse engineering in general, a
 
 ## Useful Links
 
-[free reversing ebook](beginners.re/RE4B-EN.pdf)
-[radare2 intro ebook](https://radare.gitbooks.io/radare2book/content/)
-[handy cheatsheet](https://github.com/pwntester/cheatsheets/blob/master/radare2.md)
+* [free reversing ebook](beginners.re/RE4B-EN.pdf)  
+* [radare2 intro ebook](https://radare.gitbooks.io/radare2book/content/)  
+* [handy cheatsheet](https://github.com/pwntester/cheatsheets/blob/master/radare2.md)  
 
 -----
 
