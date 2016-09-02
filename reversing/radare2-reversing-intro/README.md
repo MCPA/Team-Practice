@@ -26,7 +26,7 @@ This session is intended to go over types of reverse engineering and to introduc
       -r2's debugger capabilities
     * Visual mode - where r2 really shines
 4. Demo:  Modify a UI behavior to suite our specific needs (or something else, or a crackme if I can't think of something good)
-5. Further capabilities: ESIL, GUIs, <other stuff>
+5. Further capabilities: ESIL, GUIs, desired capabilites 
 6. Questions
 7. References
 
@@ -37,8 +37,11 @@ radare2 is a portable and customizable reversing framework - it can run on very 
 ##### What should you learn from this practice session?
 This practice session is intended to introduce reverse engineering in general, a step back from our specific context of security; talk about for what it can be applied, and why it's such an awesome practice to pursue. We will go over static and dynamic (debugging) techniques to understanding both labeled and stripped binaries.   
 
-## Useful Links - TODO
+## Useful Links
 
+[free reversing ebook](beginners.re/RE4B-EN.pdf)
+[radare2 intro ebook](https://radare.gitbooks.io/radare2book/content/)
+[handy cheatsheet](https://github.com/pwntester/cheatsheets/blob/master/radare2.md)
 
 -----
 
