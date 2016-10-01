@@ -13,6 +13,7 @@ available.
     * https://youtu.be/3o4nO3WZn6o
 * Packet Analysis
   * https://youtu.be/QwRV7KiM2lQ
+  * https://youtu.be/DAp52NruPBY
 * Cryptology
   * https://youtu.be/-TALRLWwsog
 * Intro to IDA and GDB-PEDA
