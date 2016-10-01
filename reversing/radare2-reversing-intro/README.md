@@ -23,9 +23,9 @@ This session is intended to go over types of reverse engineering and to introduc
     * CMD line mode
       -The "abc's"
       -Basic patch cycle: a, p, w
-      -r2's debugger capabilities
-    * Visual mode - where r2 really shines
-4. Demo:  Modify a UI behavior to suite our specific needs (or something else, or a crackme if I can't think of something good)
+    * Visual mode
+    * Debugging with r2
+4. Demos/practice 
 5. Further capabilities: ESIL, GUIs, desired capabilites 
 6. Questions
 7. References
@@ -40,9 +40,12 @@ This practice session is intended to introduce reverse engineering in general, a
 ## Useful Links
 
 [free reversing ebook](beginners.re/RE4B-EN.pdf)
+
 [radare2 intro ebook](https://radare.gitbooks.io/radare2book/content/)
+
 [handy cheatsheet](https://github.com/pwntester/cheatsheets/blob/master/radare2.md)
 
+[migration from gdb/ida](https://github.com/radare/radare2/wiki/Migration-from-ida-or-gdb)
 -----
 
 ## Endnotes
