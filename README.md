@@ -18,6 +18,8 @@ available.
   * https://youtu.be/-TALRLWwsog
 * Intro to IDA and GDB-PEDA
   * https://youtu.be/1_mo1-Sy55Q
+* Intro to Reversing with Radare2
+  * https://youtu.be/KCuZ9Ig_boY
 
 ----
 Need help learning how to use git? Check out http://gitref.org/basic/
