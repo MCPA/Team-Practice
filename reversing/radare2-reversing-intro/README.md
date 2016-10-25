@@ -46,6 +46,9 @@ This practice session is intended to introduce reverse engineering in general, a
 [handy cheatsheet](https://github.com/pwntester/cheatsheets/blob/master/radare2.md)
 
 [migration from gdb/ida](https://github.com/radare/radare2/wiki/Migration-from-ida-or-gdb)
+
+[YouTube video from this practice](https://youtu.be/KCuZ9Ig_boY)
+
 -----
 
 ## Endnotes
