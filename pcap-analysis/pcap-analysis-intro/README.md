@@ -89,6 +89,7 @@ After the session, participants should be able to:
 - [CTF Time - Writeups](https://ctftime.org/writeups)
 - [MCPA Challenges](https://github.com/MCPA/Team-Challenges)  
 - [JCC Challenge Writeups](https://github.com/JointCyberTrainingFoundation/Walkthroughs/blob/master/README.md)  
+- [Link to YouTube Video](https://youtu.be/DAp52NruPBY)  
 
 ----
 
