@@ -50,7 +50,7 @@ This practice sessions is geared towards reviewing a past pwnable type of Jeopar
 ## Useful Links
 
 The recorded practice session can be found [[here]()]  
-Practice material can be found [[here](https://github.com/MCPA/Team-Challenges/tree/master/pwnable/trick-or-rop)]
+Practice material can be found [[here](https://github.com/MCPA/Team-Challenges/tree/master/pwnable/trick-or-rop)]  
 Radare2 Intro Video [[here](https://youtu.be/KCuZ9Ig_boY)]
 
 -----
