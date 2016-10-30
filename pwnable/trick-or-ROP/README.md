@@ -58,3 +58,5 @@ Another Solution [[here](http://www.hamidx9.ir/solutions/2016/blazectf/dmail/sol
 -----
 
 ## Endnotes
+[Understanding glibc malloc](https://sploitfun.wordpress.com/2015/02/10/understanding-glibc-malloc/)  
+[Finding the Magic Gadget Shell](https://0xabe.io/howto/exploit/2016/03/30/Radare2-of-the-Lost-Magic-Gadget.html)  
