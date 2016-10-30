@@ -49,9 +49,11 @@ This practice sessions is geared towards reviewing a past pwnable type of Jeopar
 
 ## Useful Links
 
-The recorded practice session can be found [[here]()]  
+The recorded practice session can be found [[here](https://youtu.be/wIPJ4U4K0nU)]  
 Practice material can be found [[here](https://github.com/MCPA/Team-Challenges/tree/master/pwnable/trick-or-rop)]  
-Radare2 Intro Video [[here](https://youtu.be/KCuZ9Ig_boY)]
+Radare2 Intro Video [[here](https://youtu.be/KCuZ9Ig_boY)]  
+Solution Writeup [[here](https://0xabe.io/ctf/exploit/2016/04/24/BlazeCTF-dmail.html)]  
+Another Solution [[here](http://www.hamidx9.ir/solutions/2016/blazectf/dmail/sol.py)]  
 
 -----
 
